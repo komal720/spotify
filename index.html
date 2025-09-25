@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="spotify.png">
+</head>
+
+<body>
+    <div>
+
+        <header class="header">
+            <div class="logo">
+                <img id="logo-img" src="/image/spotify-logo.png" alt="spotify-logo">
+            </div>
+            <div class="home-button">
+                <i id="home-icon" class="fa-sharp fa-solid fa-house fa-xl"></i>
+            </div>
+            <div class="search-bar">
+                <i id="search-icon" class="fas fa-search fa-xl"></i>
+                <div class="input">
+                    <input type="text" placeholder="What do you want to play?" id="search-input" name="search-input">
+                    <label for="search-input"></label>
+                    <img id="img-icon" src="/image/logo.png">
+                </div>
+
+            </div>
+            <div class="navbar">
+                <div class="Premium">
+                    <a href="#Action.php">Premium</a>
+                </div>
+                <div class="Support">
+                    <a href="#komal.php">Support</a>
+                </div>
+                <div class="Download">
+                    <a href="#Pihu.php">Download</a>
+                </div>
+                <div class="divider"></div>
+                <div class="installApp">
+                    <i id="arrow" class="fa-solid fa-circle-arrow-down"></i>
+                    <a id="install" href="#kom.php">Install App</a>
+                </div>
+                <div class="signup">
+                    <a href="#kom.php">Sign up</a>
+                </div>
+                <div class="Login">
+                    
+                        <a href="login.html" id="#button-login" >Log in </a>
+                </div>
+            </div>
+        </header>
+
+
+
+        <div class="spotify">
+
+            <div class="left-sidebar">
+                <div class="nav">
+                    <div class="whole-sidebar">
+                        <div class="head">
+                            <div class="library-text">
+                                <h1 id="text">Your Library</h1>
+                                <div class="icon">
+                                    <i id="add" class="fa-regular fa-plus fa-2x"></i>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="slidebar-scroll">
+                            <div class="section">
+                                <div class="section-text">
+                                    <span id="text1">Create your first playlist</span>
+                                    <span id="text2">It's easy,we'll help you</span>
+                                    <button id="create-playlist">Create playlist</button>
+                                </div>
+                            </div>
+
+                            <div class="podcasts">
+                                <div class="podcasts-text">
+                                    <span id="text-1">Let's find some podcasts to follow</span>
+                                    <span id="text-2">We'll keep you updated on new episodes</span>
+                                    <button id="Browse-podcasts">Browse podcasts</button>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="end-sidebar">
+                            <div class="end-section">
+                                <div class="text-div">
+                                    <div class="text-section">
+                                        <div class="row">
+                                            <span class="legal-text">Legal</span>
+                                            <span class="safety-text">Safety & Privacy Center</span>
+                                            <span class="privacy-text">Privacy Policy</span>
+
+                                        </div>
+                                        <div class="row">
+                                            <span class="cookies-text">Cookies</span>
+                                            <span class="ads-text">About Ads</span>
+                                            <span class="accessibility-text">Accessibility</span>
+                                        </div>
+                                        <a id="cookies-text" href="shipu.php">
+                                            <span id="cookies-span">Cookies</span>
+                                        </a>
+                                        <div class="last-part">
+                                            <button id="button-english">
+                                                <b>English</b>
+                                                <i id="globe" class="fa-solid fa-globe "></i>
+                                            </button>
+
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+            <div id="right-sidebar">
+
+                <div class="area">
+                    <div id="head">
+                        <a id="trend" href="tred">Trending songs <span class="show">Show all</span> </a>
+
+                    </div>
+                </div>
+
+
+                <div class="cards-container">
+
+                    <div class="card">
+                        <img class="song" src="/image/for a reson.png">
+                        <div class="name">
+                            <a id="for" href="#">For A Reason</a><br>
+                            <a id="karan" href="#">Karan Aujla, Ikky</a>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img class="sahiba" src="/image/sahiba.png">
+                        <div class="name">
+                            <a id="for" href="#">Sahiba</a><br>
+                            <a id="karan" href="#">Aditya Rikhari</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="sahiba" src="/image/at.png">
+                        <div class="name">
+                            <a id="for" href="#">AZUL</a><br>
+                            <a id="karan" href="#">
+                                Guru Randhawa, Gurjit Gill, Lavish Dhiman</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card">
+                        <img class="sahiba" src="/image/bad.png">
+                        <div class="name">
+                            <a id="for" href="#">Badli Si Hawa Hai (From "The Ba***ds Of...)</a><br>
+                            <a id="karan" href="#">Anirudh Ravichander, Arijit Singh, Amira Gill, Kumaar</a>
+                        </div>
+                    </div>
+
+
+                    <div class="card">
+                        <img class="sahiba" src="/image/pr.png">
+                        <div class="name">
+                            <a id="for" href="#">Pardesiya-From "Param Sundari"</a><br>
+                            <a id="karan" href="#">Sachin-Jigar, Sonu Nigam, Krishnakali Saha, Amitab</a>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="area">
+                    <div id="head">
+                        <a id="trend" href="tred">Popular artists</a>
+                        <span class="show">Show all</span>
+                    </div>
+
+                    <div class="cards-contain">
+                        <div class="card">
+                            <img class="pritam" src="/image/pritam.png">
+                            <div class="name">
+                                <a class="for" href="#">Pritam</a><br>
+                                <a class="karan" href="#">artists</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="pritam" src="/image/ar.png">
+                            <div class="name">
+                                <a class="for" href="#">A.R.Rahmam</a><br>
+                                <a class="karan" href="#">artists</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="pritam" src="/image/arij.png">
+                            <div class="name">
+                                <a class="for" href="#">Arijit Singh</a><br>
+                                <a class="karan" href="#">artists</a>
+                            </div>
+                        </div>
+
+
+                        <div class="card">
+                            <img class="pritam" src="/image/s.png">
+                            <div class="name">
+                                <a class="for" href="#">Sachin-Jigar</a><br>
+                                <a class="karan" href="#">artists</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="pritam" src="/image/t.png">
+                            <div class="name">
+                                <a class="for" href="#">Vishal-Shekhar</a><br>
+                                <a class="karan" href="#">Kartists</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="area">
+                        <div id="head"> <a id="trend" href="tred">Popular albums and singles</a>
+                            <span class="show">Show all</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-contain">
+                        <div class="card">
+                            <img class="sahiba" src="/image/asq.png">
+                            <div class="name">
+                                <a class="for" href="#">Aashiqui 2</a><br>
+                                <a class="karan" href="#">Mithoon, Ankit Tiwari, Jeet Gannguli</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/ye.png">
+                            <div class="name">
+                                <a class="for" href="#">Yeh Jawaani Hai Deewani</a><br>
+                                <a class="karan" href="#">pritam</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/sanam.png">
+                            <div class="name">
+                                <a class="for" href="#">Sanam Teri Kasam (Original Motion....)</a><br>
+                                <a class="karan" href="#">Himesh Reshammiya, Sameer.</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/find.png">
+                            <div class="name">
+                                <a class="for" href="#">Finding Her</a><br>
+                                <a class="karan" href="#">Kushagra, Bharath, Saaheal</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/goat.png">
+                            <div class="name">
+                                <a class="for" href="#">Young G.O.A.T</a><br>
+                                <a class="karan" href="#">Cheema Y, Gur Sidhu</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="area">
+                        <div id="head"> <a id="trend" href="tred">Popular radio</a>
+                            <span class="show">Show all</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-contai">
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/singh.png">
+                            <div class="name">
+                                <a class="for" href="#">With Jeet Gannguli, Sachet Tandon, Pritam....</a>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/kk.png">
+                            <div class="name">
+                                <a class="for" href="#">With pritam,Atif Aslam,Mustafa Zahid and more</a><br>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/shreya.png">
+                            <div class="name">
+                                <a class="for" href="#">With Atif Aslam, Salim-Sulaiman, A.R. Rahman...</a><br>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/alka.png">
+                            <div class="name">
+                                <a class="for" href="#">With Kumar Sanu, Udit Narayan, Vinod Rathod......</a><br>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="sahiba" src="/image/Diljit.png">
+                            <div class="name">
+                                <a class="for" href="#">With Shubh, Karan Aujla, Sidhu Moose Wala and...</a><br>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="area">
+                        <div id="head">
+                            <a id="trend" href="tred">Featured charts</a>
+                            <span class="show">Show all</span>
+                        </div>
+                    </div>
+
+                    <div class="cards-contai">
+                        <div class="card">
+                            <img class="chart" src="/image/go.png">
+                            <div class="name">
+                                <a class="for" href="#">Your weekly update of the most played tracks...</a><br>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="chart" src="/image/ind.png">
+                            <div class="name">
+                                <a class="for" href="#">Your weekly update of the most played tracks</a><br>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="chart" src="/image/top 50.png">
+                            <div class="name">
+                                <a class="for" href="#">Your daily update of the most played tracks righ...</a><br>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="chart" src="/image/top.png">
+                            <div class="name">
+                                <a class="for" href="#">Your daily update of the most played tracksrigh...</a><br>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <img class="chart" src="/image/vir.png">
+                            <div class="name">
+                                <a class="for" href="#">Your daily update of the most viral tracksright...</a><br>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="main-view-container">
+                        <div class="horzontal-line"></div>
+                        <div class="nav-bar">
+                            <div class="inside-nav">
+                                <div class="more-inside">
+                                    <div class="typelist">
+                                        <h4 class="title">Company</h4>
+                                        <a href="#">About</a>
+                                        <a href="#">Jobs</a>
+                                        <a href="#">For the record</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="second-more-inside">
+                                <div class="typelist">
+                                    <h4 class="title">Communities</h4>
+                                    <a href="#">For Artists</a>
+                                    <a href="#">Developers</a>
+                                    <a href="#">Advertising</a>
+                                    <a href="#">Investors</a>
+                                    <a href="#">Vendors</a>
+                                </div>
+                            </div>
+
+                            <div class="second-more-inside">
+                                <div class="typelist">
+                                    <h4 class="title">Useful links</h4>
+                                    <a href="#">Support</a>
+                                    <a href="#">Free Mobile App</a>
+                                    <a href="#">Popular by Country</a>
+                                    <a href="#">Spotify Free</a>
+
+                                </div>
+                            </div>
+
+
+
+                            <div class="second-more-inside">
+                                <div class="typelist">
+                                    <h4 class="title">Spotify Plans</h4>
+                                    <a href="#">Premium Individual</a>
+                                    <a href="#">Premium Duc</a>
+                                    <a href="#">Premium Family</a>
+                                    <a href="#">Premium Student</a>
+                                    <a href="#">Spotify Free</a>
+                                </div>
+                            </div>
+                            <div class="icon-last-part">
+                                <div class="inst">
+                                    <button id="in"> <i class="fa-brands fa-instagram "></i></button>
+                                </div>
+
+                                <div class="inst">
+                                    <button id="in"> <i class="fa-brands fa-twitter"></i></i></button>
+                                </div>
+
+
+                                <div class="inst">
+                                    <button id="in"><i class="fa-brands fa-facebook"></i></i></button>
+                                </div>
+                            </div>
+
+                            <div class="horzontal-line"></div>
+                            <div class="spo">
+                                <div class="sp">
+                                    @2025Spotify AB
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="foot">
+            <div class="sub-foot">
+                <p id="para">Preview of Spotify</p>
+                <p id="pra">Sign up to get unlimited songs and podcasts with occasional ads. No credit card needed.</p>
+                <button id="btn">Sign up for free</button>
+            </div>
+        </div>
+
+    </div>
+
+    </div>
+
+</body>
+
+</html>
